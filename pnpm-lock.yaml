@@ -1,12 +1,15 @@
 lockfileVersion: 5.4
 
 specifiers:
+  '@formatjs/intl-localematcher': ^0.3.0
+  '@types/negotiator': ^0.6.1
   '@types/node': 20.2.5
   '@types/react': 18.2.9
   '@types/react-dom': 18.2.4
   autoprefixer: 10.4.14
   eslint: 8.42.0
   eslint-config-next: 13.4.4
+  negotiator: ^0.6.3
   next: 13.4.4
   postcss: 8.4.24
   react: 18.2.0
@@ -15,18 +18,23 @@ specifiers:
   typescript: 5.1.3
 
 dependencies:
+  '@formatjs/intl-localematcher': 0.3.0
   '@types/node': 20.2.5
   '@types/react': 18.2.9
   '@types/react-dom': 18.2.4
   autoprefixer: 10.4.14_postcss@8.4.24
   eslint: 8.42.0
   eslint-config-next: 13.4.4_tizxnkcvjrb4cldxgwq5h3lj5u
+  negotiator: 0.6.3
   next: 13.4.4_biqbaboplfbrettd7655fr4n2y
   postcss: 8.4.24
   react: 18.2.0
   react-dom: 18.2.0_react@18.2.0
   tailwindcss: 3.3.2
   typescript: 5.1.3
+
+devDependencies:
+  '@types/negotiator': 0.6.1
 
 packages:
 
@@ -77,6 +85,12 @@ packages:
   /@eslint/js/8.42.0:
     resolution: {integrity: sha512-6SWlXpWU5AvId8Ac7zjzmIOqMOba/JWY8XZ4A7q7Gn1Vlfg/SFFIlrtHXt9nPn4op9ZPAkl91Jao+QQv3r/ukw==}
     engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
+    dev: false
+
+  /@formatjs/intl-localematcher/0.3.0:
+    resolution: {integrity: sha512-NFoxXX3dtZ6B53NlCErq181NxN/noMZOWKHfcEPQRNfV0a19THxyjxu2RTSNS3532wGm6fOdid5qsBQWg0Rhtw==}
+    dependencies:
+      tslib: 2.5.3
     dev: false
 
   /@humanwhocodes/config-array/0.11.10:
@@ -270,6 +284,10 @@ packages:
   /@types/json5/0.0.29:
     resolution: {integrity: sha512-dRLjCWHYg4oaA77cxO64oO+7JwCwnIzkZPdrrC71jQmQtlhM556pwKo5bUzqvZndkVbeFLIIi+9TC40JNF5hNQ==}
     dev: false
+
+  /@types/negotiator/0.6.1:
+    resolution: {integrity: sha512-c4mvXFByghezQ/eVGN5HvH/jI63vm3B7FiE81BUzDAWmuiohRecCO6ddU60dfq29oKUMiQujsoB2h0JQC7JHKA==}
+    dev: true
 
   /@types/node/20.2.5:
     resolution: {integrity: sha512-JJulVEQXmiY9Px5axXHeYGLSjhkZEnD+MDPDGbCbIAbMslkKwmygtZFy1X6s/075Yo94sf8GuSlFfPzysQrWZQ==}
@@ -1844,6 +1862,11 @@ packages:
 
   /natural-compare/1.4.0:
     resolution: {integrity: sha512-OWND8ei3VtNC9h7V60qff3SVobHr996CTwgxubgyQYEpg290h9J0buyECNNJexkFm5sOajh5G116RYA1c8ZMSw==}
+    dev: false
+
+  /negotiator/0.6.3:
+    resolution: {integrity: sha512-+EUsqGPLsM+j/zdChZjsnX51g4XrHFOIXwfnCVPGlQk/k5giakcKsuxCObBRu6DSm9opw/O6slWbJdghQM4bBg==}
+    engines: {node: '>= 0.6'}
     dev: false
 
   /next/13.4.4_biqbaboplfbrettd7655fr4n2y:
