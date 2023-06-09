@@ -1,6 +1,6 @@
-import { getDictionary } from "@/get-dictionary";
-import { Locale } from "@/i18n-config";
-import LocaleSwitcher from "./components/locale-switcher";
+import { getDictionary } from "@lib/get-dictionary";
+import { Locale } from "@lib/i18n-config";
+import { LocaleSwitcher } from "@/components";
 
 export default async function IndexPage({
   params: { lang },

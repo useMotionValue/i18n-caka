@@ -1,4 +1,4 @@
-import { i18n } from "../../i18n-config";
+import { i18n } from "@lib/i18n-config";
 import "../globals.css";
 import { Inter } from "next/font/google";
 
